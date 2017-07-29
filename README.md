@@ -1,7 +1,7 @@
 # reactjs
 
 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="panel-heading">
 <h3 class="panel-title">What is React?</h3>
 </div>
@@ -24,3 +24,5 @@ It also uses a concept called the Virtual DOM that selectively renders subtrees 
     </div>
 </div>
 </div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
