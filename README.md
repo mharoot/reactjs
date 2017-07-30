@@ -50,6 +50,14 @@
         <tr>
             <td>
             <p>Getting started with React is as simple as downloading their provided starter kit: <a href="https://facebook.github.io/react/downloads/react-0.11.2.zip">React Starter Kit</a></p>
+            <p>You could also use the cdn and append to the header of your html file: <a href="https://cdnjs.com/libraries/react/0.14.1">CDN</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p>Page Setup</p>
+            <p>When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:</p>
+            <p><a class="btn btn-primary" href="https://github.com/mharoot/reactjs/tree/master/react-starter-kit/templates">Get Skeleton page here</a></p>
             </td>
         </tr>
     </tbody>
@@ -106,21 +114,8 @@
 </table>
 
 
-<table>
- <thead>
-    <tr>
-        <th width="100%"><h3>Page Setup</h3></th>
-    </tr>
-  </thead> 
-    <tbody>
-        <tr>
-            <td>
-            <p>When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:</p>
-            <p><a class="btn btn-primary" href="https://github.com/mharoot/reactjs/tree/master/react-starter-kit/templates">Get Skeleton page here</a></p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+
+
 
 
             
