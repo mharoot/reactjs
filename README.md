@@ -115,6 +115,7 @@
             <p><h4>Step 6 - App.jsx and main.js</p>
             <p>This is the first react component. We will explain React components in depth in one of our later tutorials. This component will render Hello World!!!.</p>
             <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/App.jsx">App.jsx source code</a></p>
+            <p>We need to import this component and render it to our root App element so we can see it in browser.</p>
             <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/main.js">main.js source code</a></p>
             </td>
         </tr>
