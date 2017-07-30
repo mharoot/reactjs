@@ -70,7 +70,7 @@ Because React is using a fake DOM and not a real one, it also opens up a fun new
             When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:
             </p>
             <p>
-            <a class="btn btn-primary" href="#">Get Skeleton page here</a>
+            <a class="btn btn-primary" href="https://github.com/mharoot/reactjs/tree/master/react-starter-kit/templates">Get Skeleton page here</a>
             </p>
             </td>
         </tr>
