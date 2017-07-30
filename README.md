@@ -118,6 +118,7 @@
             <p>We need to import this component and render it to our root App element so we can see it in browser.</p>
             <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/main.js">main.js source code</a></p>
             </td>
+            <p><h5>Note: </h5>Whenever you want to use something, you need to import it first. If you want to make component usable in other parts of the app, you need to export it after creation and import it in the file where you want to use it.</p>
         </tr>
     </tbody>
 </table>
