@@ -54,7 +54,40 @@ Because React is using a fake DOM and not a real one, it also opens up a fun new
 
 
 
-
+<table>
+ <thead>
+    <tr>
+        <th width="100%"><h3>Getting Started</h3></th>
+    </tr>
+  </thead> 
+    <tbody>
+        <tr>
+            <td>
+            <p>Getting started with React is as simple as downloading their provided starter kit:</p>
+            <p><a href="https://facebook.github.io/react/downloads/react-0.11.2.zip">React Starter Kit</a></p>
+            <p>
+            <h4>Page Setup</h4>
+            When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:
+            </p>
+            ```html
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <script src="build/react.js"></script>
+                <script src="build/JSXTransformer.js"></script>
+            </head>
+            <body>
+                <div id="mount-point"></div>
+                <script type="text/jsx">
+                // React Code Goes Here
+                </script>
+            </body>
+            </html>
+            ```
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 
