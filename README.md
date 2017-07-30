@@ -69,21 +69,9 @@ Because React is using a fake DOM and not a real one, it also opens up a fun new
             <h4>Page Setup</h4>
             When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:
             </p>
-            ```
-            <!DOCTYPE html>
-            <html>
-            <head>
-                <script src="build/react.js"></script>
-                <script src="build/JSXTransformer.js"></script>
-            </head>
-            <body>
-                <div id="mount-point"></div>
-                <script type="text/jsx">
-                // React Code Goes Here
-                </script>
-            </body>
-            </html>
-            ```
+            <p>
+            <a class="btn btn-primary" href="#">Get Skeleton page here</a>
+            </p>
             </td>
         </tr>
     </tbody>
