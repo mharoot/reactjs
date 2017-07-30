@@ -99,7 +99,7 @@
             <td>
             <p><h4>Step 5 - index.html </h4></p>
             <p>This is just regular HTML. We are setting div id = "app" as a root element for our app and adding index.js script which is our bundled app file.:</p>
-            <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/index.html"></a>index.html source code</p>
+            <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/index.html">index.html source code</a></p>
             </td>
         </tr>
     </tbody>
