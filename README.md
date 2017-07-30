@@ -89,6 +89,17 @@
             <td>
             <p><h4>Step 4 - Set Compiler, Server and Loaders</h4></p>
             <p>Open <b>webpack-config.js</b> file and add the code below. We are setting webpack entry point to be <b>main.js</b>. Output path is the place where bundled app will be served. We are also setting development server to <b>3000</b> port. You can choose any port you want. And lastly, we are setting babel loaders to search for <b>js</b> files and use <b>es2015</b> and <b>react</b> presets that we installed before.</p>
+            <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/webpack.config.js">webpack.config.js source code</a></p>
+            <p>Open the <b>package.json</b> and delete <b>"test" "echo \"Error: no test specified\" && exit 1" </b> inside <b>"scripts"</b> object. We are deleting this line since we will not do any testing in this tutorials. Let's add the <b>start</b> command instead:</p>
+            <p>"start": "webpack-dev-server --hot"</p>
+            <p>Now we can use <b>npm start</b> command to start the server. <b>--hot</b> command will add live reload after something is changed inside our files so we don't need to refresh the browser every time we change our code.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p><h4>Step 5 - index.html </h4></p>
+            <p>This is just regular HTML. We are setting div id = "app" as a root element for our app and adding index.js script which is our bundled app file.:</p>
+            <p><a href="https://github.com/mharoot/reactjs/blob/master/projects/project1/index.html"></a>index.html source code</p>
             </td>
         </tr>
     </tbody>
