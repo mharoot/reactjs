@@ -120,6 +120,14 @@
             </td>
             <p><h5>Note: </h5>Whenever you want to use something, you need to import it first. If you want to make component usable in other parts of the app, you need to export it after creation and import it in the file where you want to use it.</p>
         </tr>
+        <tr>
+            <td>
+            <p><h4>Step 7 - Running the Server</h4></p>
+            <p>The setup is finished and we can start the server by running:</p>
+            <p><b>npm start</b></p>
+            <p>It will show you the port we need to open in browser, in our case http://localhost:3000/. After we open it we will see the Hello World output!</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
