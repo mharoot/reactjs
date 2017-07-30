@@ -69,8 +69,7 @@ Because React is using a fake DOM and not a real one, it also opens up a fun new
             <h4>Page Setup</h4>
             When setting up your page, you want to include react.js and JSXTransformer.js, and then write your component in a script node with type set to text/jsx:
             </p>
-            ```html
-            <!DOCTYPE html>
+            ```<!DOCTYPE html>
             <html>
             <head>
                 <script src="build/react.js"></script>
@@ -82,8 +81,7 @@ Because React is using a fake DOM and not a real one, it also opens up a fun new
                 // React Code Goes Here
                 </script>
             </body>
-            </html>
-            ```
+            </html>```
             </td>
         </tr>
     </tbody>
