@@ -85,6 +85,12 @@
             </p>
             </td>
         </tr>
+        <tr>
+            <td>
+            <p><h4>Step 4 - Set Compiler, Server and Loaders</h4></p>
+            <p>Open <b>webpack-config.js</b> file and add the code below. We are setting webpack entry point to be <b>main.js</b>. Output path is the place where bundled app will be served. We are also setting development server to <b>3000</b> port. You can choose any port you want. And lastly, we are setting babel loaders to search for <b>js</b> files and use <b>es2015</b> and <b>react</b> presets that we installed before.</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
